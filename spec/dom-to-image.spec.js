@@ -252,7 +252,7 @@
                     .then(function () {
                         return domtoimage.toPng(domNode(), {
                             dpi: 96 * 3
-                        })
+                        });
                     })
                     .then(check)
                     .then(done).catch(done);

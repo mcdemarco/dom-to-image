@@ -140,7 +140,7 @@
 
             var ctx = canvas.getContext('2d');
 
-            if (options.dpi != null) {
+            if (options.dpi !== null) {
               var scaleFactor = options.dpi / 96;
               canvas.width = Math.ceil(canvas.width * scaleFactor);
               canvas.height = Math.ceil(canvas.height * scaleFactor);
