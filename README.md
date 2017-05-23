@@ -40,6 +40,17 @@ and it will make the `domtoimage` variable available in the global scope.
 </script>
 ```
 
+### Build
+
+To build the distribution from source:
+
+`npm install
+`grunt
+
+To build despite test failures:
+
+`grunt --force
+
 ## Usage
 
 All the top level functions accept DOM node and rendering options,
